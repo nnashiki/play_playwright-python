@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "play-playwright-python"
+version = "0.1.0"
+description = ""
+authors = ["Niten Nashiki <n.nashiki.work@gmail.com>"]
+readme = "README.md"
+packages = [{include = "play_playwright_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+playwright = "^1.36.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
